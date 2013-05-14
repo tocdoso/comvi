@@ -1,0 +1,2 @@
+/* Note: Make HTML 5 elements block-level for consistent styling */
+header, nav, aside, section, footer, article {display:block;}

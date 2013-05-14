@@ -1,0 +1,104 @@
+.btn{font-size:14px;padding:5px;}
+/* align Tweet, facebook and g+ buttons correctly */
+.fb-like{font-size:1px;display:inline-block;width:100px;}
+
+#header{background:#f0f8fc;background:#f0f8fc;border-bottom:1px solid #d0d8db;}
+#logo{float:left;display:block;padding:10px;}
+#logo img{display:block;}
+
+/* http://www.cssplay.co.uk/menus/final_drop.html */
+.menu, .menu ul {padding:0;margin:0;list-style-type:none;}
+.menu{height:32px;padding:10px;float:left;position:relative;}
+.menu li{float:left;position:relative;}
+.menu a{display:block;padding:0 10px;line-height:32px;}
+.menu :hover ul{visibility:visible;}
+.menu :hover ul ul{visibility:hidden;}
+.menu :hover ul :hover ul{visibility:visible;}
+.menu ul{visibility:hidden;position:absolute;height:0;top:32px;left:0;width:149px;}
+.menu ul ul{left:149px;top:0;}
+* html .menu ul.left-menu{right:-71px;}
+.menu ul.left-menu{left:auto;right:1px;}
+.menu ul ul.left-menu{left:-149px;}
+/* style the table so that it takes no ppart in the layout - required for IE to work */
+.menu table{position:absolute;top:0;left:0;border-collapse:collapse;}
+.menu ul a{height:auto;line-height:18px;padding:5px 10px;width:130px;}
+/* hack for IE5.5 */
+* html .menu ul a{width:150px;w\idth:130px;}
+/* addition style for menu */
+.menu .drop{background-image:url(../img/arrow_down.gif);background-repeat:no-repeat;background-position:50% 100%;}
+.menu ul .drop{background-image:url(../img/arrow.gif);background-position:140px center;}
+.menu ul li{opacity:0.8;background-color:#000;}
+.menu ul a{color:#bbb;}
+.menu a:hover {opacity:0.8;background-color:#000;color:#fff;text-decoration:none;}
+.menu :hover > a {opacity:0.8;background-color:#000;color:#fff;}
+.menu .active {color:#005580;}
+.menu ul a:hover {background-color:#2e2e2e;}
+.menu ul :hover > a {background-color:#2e2e2e;}
+.menu ul .active {color:#fff;}
+/* Responsive menu */
+@media only screen and (max-width:767px){
+#header{position:relative;}
+.toggleMenu{cursor:pointer;background:#808080 url(../img/icon-list.png) no-repeat 5px 5px;float:right;width:32px;height:32px;padding:5px;margin:10px 10px 0 10px;}
+.menu{float:none;clear:both;height:auto;padding:0;margin:0 10px 10px 10px;}
+.menu .drop{background-image:none;}
+.menu ul .drop{background-image:none;}
+.menu a{background-color:#074465;color:#bbb;}
+.menu ul a{width:auto;}
+.menu li{float:none;}
+.menu ul li{background:none;}
+.menu .active{color:#fff;}
+.menu ul{display:block;visibility:visible;position:static;height:auto;width:auto;}
+.menu :hover ul ul{visibility:visible;}
+/*.menu{float:none;height:auto;padding:0;margin:0 10px 10px 10px;font-weight:bold;}
+.menu .drop{background-image:none;}
+.menu ul .drop{background-image:none;}
+.menu ul a{width:auto;color:#0088cc;}
+.menu li{float:none;}
+.menu ul li{background:none;padding:0 20px}
+.menu .active,
+.menu ul .active{color:inherit;}
+.menu ul{display:block;visibility:visible;position:static;height:auto;width:auto;}
+.menu :hover ul ul{visibility:visible;}*/
+}
+
+.user-dropdown {height:32px;margin:10px;line-height:32px;}
+.user-dropdown > a {text-decoration:none;outline:0;}
+/*.dropdown .caret {margin-top:14px;}*/
+.user-dropdown .avatar {margin-right:2px;max-width:none;}
+
+.breadcrumbs{background:#f0f8fc;border:1px solid #d0d8db;padding:6px 10px;margin:20px;}
+
+/** Sticky footer styles **/
+html, body {height:100%; padding:0; /*The html and body elements cannot have any padding or margin.*/}
+/* Wrapper for page content to push down footer */
+#wrap {min-height:100%; height:auto !important; height:100%; /*Negative indent footer by it's height*/margin:0 auto -50px;}
+/* Set the fixed height of the footer here */
+#push, #footer {height:50px;} 
+/* Lastly, apply responsive CSS fixes as necessary */
+@media (max-width: 767px){}
+
+#container{margin:20px;}
+
+.box{float:right;background:#f0f8fc;border:1px solid #d0d8db;padding:0 10px;margin:0 0 20px 20px;/*width:298px;position:absolute;right:20px;top:20px;*/}
+.box h3{font-weight:normal;font-size:16px;line-height:20px;}
+
+.footer {border-top:3px solid #bfbfbf;padding:10px 0 0 0;margin:0 20px;}
+.footer p{line-height:24px;}
+.footer ul{margin:0 10px;}
+.footer li{border-left:1px solid #bfbfbf;padding:0 5px 0 10px;display:inline;line-height:24px;}
+.footer img{vertical-align:middle;max-width:none;}
+
+/** Media Queries **/
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media only screen and (max-width:959px){}
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media only screen and (min-width:768px) and (max-width:959px){}
+/* All Mobile Sizes (devices and browser) */
+@media only screen and (max-width:767px){}
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (min-width:480px) and (max-width:767px){
+/*#logo{float:none;}
+.menu{float:none;padding-top:0;}*/
+}
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width:479px){}

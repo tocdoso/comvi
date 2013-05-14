@@ -1,0 +1,25 @@
+<?php
+	return array(
+		'Navigation' => 'Cấu trúc site',
+		'Root' => 'Gốc',
+		'Menu' => 'Thực đơn',
+		'Breadcrumbs' => 'Vị trí hiện tại',
+		'Item' => 'Mục',
+		'Items' => 'Các mục',
+		'List items' => 'Danh sách các mục',
+		'Edit items' => 'Sửa các mục',
+		'Edit item' => 'Sửa mục',
+		'Add item' => 'Thêm mục',
+		'Module' => 'Mô-đun',
+		'Modules' => 'Các mô-đun',
+		'List modules' => 'Danh sách các mô-đun',
+		'Edit modules' => 'Quản lý các mô-đun',
+		'Edit module' => 'Sửa mô-đun',
+		'Add module' => 'Thêm mô-đun',
+		'Privilege' => 'Phân quyền',
+		'Privileges' => 'Các phân quyền',
+		'List privileges' => 'Danh sách các phân quyền',
+		'Edit privileges' => 'Quản lý phân quyền',
+		'Edit privilege' => 'Sửa phân quyền',
+		'Add privilege' => 'Thêm phân quyền'
+	);
